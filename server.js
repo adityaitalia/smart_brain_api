@@ -12,7 +12,7 @@ const image=require('./controllers/image');
 const db=knex({
   client: 'pg',
   connection: {
-    host : '127.0.0.1',
+    host : 'postgresql-adjacent-58556',
     user : 'postgres',
     password : 'aditya888',
     database : 'smartBrain'
