@@ -18,7 +18,7 @@ const db=knex({
     database : 'smartBrain'
   }
 });
-dwnjfrwionrwiogfi
+
 const app=express();
 app.use(bodyParser.json());
 app.use(cors());
@@ -49,6 +49,6 @@ app.post('/imageurl',(req,res)=>{
 });
 
 
-app.listen(3000,()=>{
-	console.log('Working on port 3000');
+app.listen(process.env.PORT||3000,()=>{
+	console.log(`Working on port ${process.env.PORT}`);
 });
