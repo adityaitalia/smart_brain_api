@@ -3,7 +3,6 @@ const bodyParser=require('body-parser');
 const bcrypt=require('bcrypt-nodejs');
 const cors=require('cors');
 const knex=require('knex');
-fuck off git
 
 const register=require('./controllers/register');
 const signin=require('./controllers/signin');
